@@ -1,12 +1,12 @@
 # Intelligent Driver Model
 This project was created as part of a 3rd year modelling and simulation module at Queen's University Belfast. 
-\
+
 The standard model simulates a given number of cars driving around a ring road where each driver reacts to their surroundings and makes adjustments to their speed.\
-The extended model adds the option to add traffic lights and roundabouts.\
+The extended model adds the option to add traffic lights and roundabouts.
 
 The model works on a time step basis. At each time step each cars current situation (velocity, accelleration, position, headway, velocity of proceeding car) is taken into account along with a set of\
 parameters to calculate each cars velocity, acceleration and position for the next timestep. A detailed description of the intelligent driver model is given in chapter 11 of the \
-book "Traffic Flow Dynamics: Data, Models and Simulation" by M. Treiber and A. Kesting.\
+book "Traffic Flow Dynamics: Data, Models and Simulation" by M. Treiber and A. Kesting.
 
 Details of extensive testing of both models are included, these tests allowed for extensive data collection for analysis of the model. Programs used to perform analysis of the model are also included.\
 
